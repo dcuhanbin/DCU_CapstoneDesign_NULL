@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "늘보담",
+    "slug": "neulbodam",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.neulbodam.app",
+      "infoPlist": {
+        "NSMotionUsageDescription": "걸음수 측정을 위해 사용됩니다.",
+        "NSLocationWhenInUseUsageDescription": "현재 위치 확인을 위해 사용됩니다."
+      }
+    },
+    "android": {
+      "package": "com.neulbodam.app",
+      "permissions": [
+        "ACTIVITY_RECOGNITION",
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_COARSE_LOCATION",
+        "android.permission.health.READ_STEPS",
+        "android.permission.health.READ_DISTANCE",
+        "android.permission.health.READ_ACTIVE_CALORIES_BURNED"
+      ]
+    },
+    "extra": {
+      "eas": {
+        "projectId": "fa698cf6-f577-4259-9a22-728ae8fa3c75"
+      }
+    },
+    "owner": "cole02101"
+  },
+  "extra": {
+    "eas": {
+      "projectId": "your-project-id"
+    }
+  }
+}

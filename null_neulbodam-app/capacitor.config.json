@@ -1,0 +1,8 @@
+{
+  "appId": "com.loginform.app",
+  "appName": "Login App",
+  "webDir": "www",
+  "server": {
+    "androidScheme": "https"
+  }
+}
