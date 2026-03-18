@@ -66,7 +66,7 @@ neulbodam-app/
 ```bash
 # 1. 저장소 클론
 git clone https://github.com/dcuhanbin/DCU_CapstoneDesign_NULL.git
-cd cursor-team-project
+cd null_neulbodam-app
 
 # 2. 패키지 설치
 npm install
